@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-image: url('2.jpg');background-size: cover; 
+    transition: 2s;width: 2s;height: 2s;transform: 4s;
+    transition-delay: 2s;
+    
+}
+
+div:hover{
+    width: 600px;
+    height: 400px;
+    transform: rotate(360deg);
+}

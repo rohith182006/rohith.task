@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;background-image: url('2.jpg');background-repeat: no-repeat;background-size: cover;
+}
+form{
+    margin-left: 450px;
+    font-size: 50px;
+
+ }
+input{
+    font-size: large;
+    border-radius: 8px;
+}
+form{
+    border: 2px solid rgb(0, 0, 0);height: 600px;width:450px;text-align: center;
+    background-color: rgb(241, 241, 241);
+}

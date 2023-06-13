@@ -1,0 +1,21 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 5s;
+}  
+@keyframes animate{
+    0%{background-color:red;left: 0px;top: 0px;}
+    10%{background-color: violet;left: 100;top: 0px;}
+    20%{background-color: lawngreen;left: 150px;top: 0px;}
+    30%{background-color: blue;left: 200px;top: 0px;}
+    40%{background-color: black;left: 200px;top: 100px;}
+    50%{background-color: fuchsia;left: 200px;top: 150px;}
+    60%{background-color: gold;left: 200px;top: 200px;}
+    70%{background-color: rgb(78, 102, 78);left: 150px;top: 200px;}
+    80%{background-color: blue;left: 100px;top: 200px;}
+    90%{background-color: rgb(21, 89, 94);left: 0px;top: 200px;}
+    100%{background-color: rgb(92, 27, 146);left: 0px;top: 0px;}
+}
